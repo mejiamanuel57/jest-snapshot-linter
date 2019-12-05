@@ -1,17 +1,17 @@
 [![Coverage Status](https://coveralls.io/repos/github/newsuk/jest-lint/badge.svg?branch=master)](https://coveralls.io/github/newsuk/jest-lint?branch=master)
 [![Build Status](https://travis-ci.org/newsuk/jest-lint.svg?branch=master)](https://travis-ci.org/newsuk/jest-lint)
 
-# jest-lint
+# jest-snapshot-linter
 
 A linter for Jest snapshots to help you write (in a very opinionated way) "better"
-snapshots
+snapshots (fork from newsuk/jest-lint)
 
 ## Install
 
 Install globally or locally
 
 ```
-yarn add --dev @thetimes/jest-lint
+yarn add --dev @mejiamanuel57/jest-snapshot-linter
 ```
 
 ## Run
