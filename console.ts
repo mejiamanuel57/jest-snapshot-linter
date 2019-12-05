@@ -130,9 +130,7 @@ export default (
       }
 
       l.warnings.forEach(w => {
-        if (w.type === "NO_ELEMENTS_FOUND") {
-          logger.warn("No JSX found");
-        } else {
+        if (w.type !== "NO_ELEMENTS_FOUND") {
           logger.warn(
             `Max Generic Elements: Too many (${w.count}) generic elements (${
               w.elementName
