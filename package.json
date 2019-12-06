@@ -1,6 +1,6 @@
 {
   "name": "@mejiamanuel57/jest-snapshot-linter",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "A tool to analyse/validate jest snapshots",
   "main": "index.js",
   "scripts": {
